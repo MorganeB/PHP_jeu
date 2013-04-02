@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 
 include("tools.php");
@@ -57,6 +57,7 @@ else {
   // Je ne viens pas de la page d'accueil
   header("Location: index.php");
 }
+
 
 finHTML();
 ?>
